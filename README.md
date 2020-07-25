@@ -107,7 +107,7 @@ Load `figure_minnesota.R` to reproduce Figure 1.
 source("figure_minnesota.R")
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-5-1.png)![](README_files/figure-markdown_github/unnamed-chunk-5-2.png)
+<img src="README_files/figure-markdown_github/unnamed-chunk-5-1.png" style="display: block; margin: auto;" /><img src="README_files/figure-markdown_github/unnamed-chunk-5-2.png" style="display: block; margin: auto;" />
 
 The results (associated with our methodology) presented in the table 1
 have been stored in the files `res001A2MC10.Rdata` and
@@ -116,27 +116,8 @@ script `res2LaTeXtable.R`
 
 ``` r
 source("res2LaTeXtable.R")
-#> 
-#> Attaching package: 'dplyr'
-#> The following object is masked from 'package:gridExtra':
-#> 
-#>     combine
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-#> ── Attaching packages ──────────────────────────────────── tidyverse 1.2.1 ──
-#> ✔ tibble  2.0.1     ✔ purrr   0.3.0
-#> ✔ tidyr   0.8.2     ✔ stringr 1.3.1
-#> ✔ readr   1.3.1     ✔ forcats 0.3.0
-#> ── Conflicts ─────────────────────────────────────── tidyverse_conflicts() ──
-#> ✖ dplyr::combine() masks gridExtra::combine()
-#> ✖ dplyr::filter()  masks stats::filter()
-#> ✖ dplyr::lag()     masks stats::lag()
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Sat Jul 25 11:47:07 2020
+#> % Sat Jul 25 11:57:42 2020
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -205,45 +186,12 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 
 ``` r
 source("figure_pitt.R")
-#> Loading required package: MASS
-#> 
-#> Attaching package: 'MASS'
-#> The following object is masked from 'package:dplyr':
-#> 
-#>     select
-#> Loading required package: Matrix
-#> 
-#> Attaching package: 'Matrix'
-#> The following object is masked from 'package:tidyr':
-#> 
-#>     expand
-#> Loading required package: igraph
-#> 
-#> Attaching package: 'igraph'
-#> The following objects are masked from 'package:purrr':
-#> 
-#>     compose, simplify
-#> The following object is masked from 'package:tidyr':
-#> 
-#>     crossing
-#> The following object is masked from 'package:tibble':
-#> 
-#>     as_data_frame
-#> The following objects are masked from 'package:dplyr':
-#> 
-#>     as_data_frame, groups, union
-#> The following objects are masked from 'package:stats':
-#> 
-#>     decompose, spectrum
-#> The following object is masked from 'package:base':
-#> 
-#>     union
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (22.9s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.17s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (24.69s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.14s)"
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-8-1.png)
+<img src="README_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 Comparison results using the data from the “Graph Trend Filtering” paper
 example are reproducible by running the `pitt_f_y_formGTF.R` file. The

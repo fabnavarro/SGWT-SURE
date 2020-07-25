@@ -117,7 +117,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Sat Jul 25 11:57:42 2020
+#> % Sat Jul 25 12:07:01 2020
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -187,8 +187,8 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (24.69s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.14s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (24.73s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.22s)"
 ```
 
 <img src="README_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />

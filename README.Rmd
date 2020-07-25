@@ -8,9 +8,7 @@ bibliography: readmebib.bib
 ```{r Setup, include=FALSE}
 library(gasper)
 knitr::opts_chunk$set(
-  collapse = TRUE,
-  fig.width=3,
-  fig.height=3, 
+  collapse = TRUE, 
   fig.align="center",
   comment = "#>"
 )
@@ -81,7 +79,7 @@ Since the calculations can be long (e.g. several days for the numerical experime
 ### The Minnesota Roads Graph
 
 Load `figure_minnesota.R` to reproduce Figure 1.
-```{r,  eval=TRUE}
+```{r,  eval=TRUE,  fig.width=3, fig.height=3}
 source("figure_minnesota.R")
 ```
 

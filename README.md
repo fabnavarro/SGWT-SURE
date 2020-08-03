@@ -27,6 +27,12 @@ Another possibility is to install the development version:
 devtools::install_github("fabnavarro/gasper")
 ```
 
+or the CRAN version
+
+``` r
+install.packages("gasper")
+```
+
 The package and code execution require the installation of the following
 external libraries:
 
@@ -107,7 +113,7 @@ Load `figure_minnesota.R` to reproduce Figure 1.
 source("figure_minnesota.R")
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-5-1.png" style="display: block; margin: auto;" /><img src="README_files/figure-markdown_github/unnamed-chunk-5-2.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-6-1.png" style="display: block; margin: auto;" /><img src="README_files/figure-markdown_github/unnamed-chunk-6-2.png" style="display: block; margin: auto;" />
 
 The results (associated with our methodology) presented in the table 1
 have been stored in the files `res001A2MC10.Rdata` and
@@ -117,7 +123,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Sat Jul 25 12:07:01 2020
+#> % Mon Aug  3 13:24:58 2020
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -187,11 +193,11 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (24.73s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.22s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (21.66s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.14s)"
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
 
 Comparison results using the data from the “Graph Trend Filtering” paper
 example are reproducible by running the `pitt_f_y_formGTF.R` file. The

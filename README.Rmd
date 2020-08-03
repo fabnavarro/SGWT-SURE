@@ -30,6 +30,11 @@ Another possibility is to install the development version:
 devtools::install_github("fabnavarro/gasper")
 ```
 
+or the CRAN version:
+```{r, eval=FALSE}
+install.packages("gasper")
+```
+
 The package and code execution require the installation of the following external libraries:
 ```{r, eval=FALSE}
 package_list <- c("scatterplot3d",

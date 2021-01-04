@@ -5,8 +5,8 @@ The codes in this repository implement an efficient generalization of
 the Stein’s Unbiased Risk Estimate (SURE) for signal
 denoising/regression on graphs using Spectral Graph Wavelet Transform
 Hammond, Vandergheynst, and Gribonval (2011). In particular, they allow
-to reproduce the simulations presented in De Loynes, Navarro, and
-Olivier (2019).
+to reproduce the simulations presented in de Loynes, Navarro, and
+Olivier (2021).
 
 Installation
 ------------
@@ -27,7 +27,7 @@ Another possibility is to install the development version:
 devtools::install_github("fabnavarro/gasper")
 ```
 
-or the CRAN version
+or the CRAN version:
 
 ``` r
 install.packages("gasper")
@@ -123,7 +123,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Mon Aug  3 13:24:58 2020
+#> % Mon Jan  4 17:14:15 2021
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -193,8 +193,8 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (21.66s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.14s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (25.5s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.22s)"
 ```
 
 <img src="README_files/figure-markdown_github/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
@@ -291,12 +291,13 @@ Chambolle, Antonin, and Jérôme Darbon. 2009. “On Total Variation
 Minimization and Surface Evolution Using Parametric Maximum Flows.”
 *International Journal of Computer Vision* 84 (3): 288.
 
-De Loynes, Basile, Fabien Navarro, and Baptiste Olivier. 2019.
+de Loynes, Basile, Fabien Navarro, and Baptiste Olivier. 2021.
 “Data-Driven Thresholding in Denoising with Spectral Graph Wavelet
-Transform.” *arXiv Preprint arXiv:1906.01882*.
+Transform.” *Journal of Computational and Applied Mathematics* 389:
+113319. <https://doi.org/https://doi.org/10.1016/j.cam.2020.113319>.
 
-———. 2020. *Gasper: GrAph Signal Processing in R*. *arXiv Preprint
-arXiv:2007.10642*.
+De Loynes, Basile, Fabien Navarro, and Baptiste Olivier. 2020. *Gasper:
+GrAph Signal Processing in R*. *arXiv Preprint arXiv:2007.10642*.
 
 Hammond, David K, Pierre Vandergheynst, and Rémi Gribonval. 2011.
 “Wavelets on Graphs via Spectral Graph Theory.” *Applied and

@@ -123,7 +123,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Mon Jan  4 17:14:15 2021
+#> % Wed Feb 10 11:11:28 2021
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -193,8 +193,8 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (25.5s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.22s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (22.67s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.17s)"
 ```
 
 <img src="README_files/figure-markdown_github/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
@@ -294,7 +294,8 @@ Minimization and Surface Evolution Using Parametric Maximum Flows.”
 de Loynes, Basile, Fabien Navarro, and Baptiste Olivier. 2021.
 “Data-Driven Thresholding in Denoising with Spectral Graph Wavelet
 Transform.” *Journal of Computational and Applied Mathematics* 389:
-113319. <https://doi.org/https://doi.org/10.1016/j.cam.2020.113319>.
+113319.
+<http://www.sciencedirect.com/science/article/pii/S0377042720306105>.
 
 De Loynes, Basile, Fabien Navarro, and Baptiste Olivier. 2020. *Gasper:
 GrAph Signal Processing in R*. *arXiv Preprint arXiv:2007.10642*.

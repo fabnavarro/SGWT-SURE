@@ -20,9 +20,9 @@ The codes in this repository implement an efficient generalization of the Stein'
 
 ## Installation
 
-The codes are based on the [gasper](https://github.com/fabnavarro/gasper) package @de2020gasper. To install the package, download the 1.0.0 [ version](https://github.com/fabnavarro/gasper/releases) and run the following command in a terminal:
+The codes are based on the [gasper](https://github.com/fabnavarro/gasper) package @de2020gasper. To install the package, download the latest [ version](https://github.com/fabnavarro/gasper/releases) and run the following command in a terminal:
 ```{bash, eval=FALSE}
-R CMD INSTALL --build gasper_1.0.0.tar.gz
+R CMD INSTALL --build gasper_1.1.1.tar.gz
 ```
 
 Another possibility is to install the development version:
@@ -35,13 +35,8 @@ or the CRAN version:
 install.packages("gasper")
 ```
 
----
-**NOTE**
-
-Avoid gasper version 1.1.0 which contains an error in the laplacian_mat function (for full matrices).
-
----
-
+> NOTE
+Avoid gasper version 1.1.0 which contains an error in the `laplacian_mat` function (for full matrices).
 
 The package and code execution require the installation of the following external libraries:
 ```{r, eval=FALSE}

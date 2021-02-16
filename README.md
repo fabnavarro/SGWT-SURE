@@ -13,12 +13,12 @@ Installation
 
 The codes are based on the
 [gasper](https://github.com/fabnavarro/gasper) package De Loynes,
-Navarro, and Olivier (2020). To install the package, download the 1.0.0
+Navarro, and Olivier (2020). To install the package, download the latest
 [version](https://github.com/fabnavarro/gasper/releases) and run the
 following command in a terminal:
 
 ``` bash
-R CMD INSTALL --build gasper_1.0.0.tar.gz
+R CMD INSTALL --build gasper_1.1.1.tar.gz
 ```
 
 Another possibility is to install the development version:
@@ -32,6 +32,9 @@ or the CRAN version:
 ``` r
 install.packages("gasper")
 ```
+
+> NOTE Avoid gasper version 1.1.0 which contains an error in the
+> `laplacian_mat` function (for full matrices).
 
 The package and code execution require the installation of the following
 external libraries:
@@ -123,7 +126,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Tue Feb 16 17:10:31 2021
+#> % Tue Feb 16 17:34:53 2021
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -193,8 +196,8 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (22.84s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.35s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (20.85s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.27s)"
 ```
 
 <img src="README_files/figure-markdown_github/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />

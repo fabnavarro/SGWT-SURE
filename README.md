@@ -13,7 +13,7 @@ Installation
 
 The codes are based on the
 [gasper](https://github.com/fabnavarro/gasper) package De Loynes,
-Navarro, and Olivier (2020). To install the package, download the latest
+Navarro, and Olivier (2020). To install the package, download the 1.0.0
 [version](https://github.com/fabnavarro/gasper/releases) and run the
 following command in a terminal:
 
@@ -123,7 +123,7 @@ script `res2LaTeXtable.R`
 ``` r
 source("res2LaTeXtable.R")
 #> % latex table generated in R 3.5.2 by xtable 1.8-3 package
-#> % Wed Feb 10 11:14:33 2021
+#> % Tue Feb 16 17:10:31 2021
 #> \begin{table}[ht]
 #> \centering
 #> \begin{tabular}{rlll}
@@ -193,8 +193,8 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 ``` r
 source("figure_pitt.R")
 #> [1] "Input SNR_in=1.97dB"
-#> [1] "Oracle Trend filtering SNR=7.17dB (21.43s)"
-#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.12s)"
+#> [1] "Oracle Trend filtering SNR=7.17dB (22.84s)"
+#> [1] "Oracle SGWT beta=2 SNR=9.75dB (1.35s)"
 ```
 
 <img src="README_files/figure-markdown_github/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />

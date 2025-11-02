@@ -78,7 +78,7 @@ Below, all the information are gathered to reproduce the numerical results prese
 
 ### Note
 
-The comparisons made with graph trend filtering (GTF) involves the matlab and python codes available on the webpage of one of the authors (i.e. via this [url](https://sites.cs.ucsb.edu/~yuxiangw/resources.html), [gtf_code.zip](https://sites.cs.ucsb.edu/~yuxiangw/codes/gtf_code.zip) and [code-to-run-wavelets.zip](https://sites.cs.ucsb.edu/~yuxiangw/codes/code-to-run-wavelets.zip)).
+The comparisons made with graph trend filtering (GTF) involves the matlab and python codes available on the webpage of one of the authors (i.e. via this [url](https://cseweb.ucsd.edu/~yuxiangw/resources.html), [gtf_code.zip](https://cseweb.ucsd.edu/~yuxiangw/codes/gtf_code.zip) and [code-to-run-wavelets.zip](https://cseweb.ucsd.edu/~yuxiangw/codes/code-to-run-wavelets.zip)).
 
 For $k=0$, the R `genlasso` package was also used. In particular, for the simulations corresponding to the Pittsbug graph using the data of @WanShaSmoTib:16 as well as Figure 4. The major difference between the R package and the matlab code lies in the algorithm for solving the underlying optimization problem. Indeed, the matlab code is based on the methodology and C++ code developed in @chambolle2009total and therefore is much faster than the R package.
 
@@ -119,7 +119,7 @@ Load `figure_pitt.R` to reproduce the figure of the Pittsburgh graph.
 source("figure_pitt.R")
 ```
 
-Comparison results using the data from the "Graph Trend Filtering" paper example are reproducible by running the `pitt_f_y_formGTF.R` file. The `pittsburgh.mat` file (containing $f$ and $y$) comes from the code associated with the GTF paper and was downloaded here https://sites.cs.ucsb.edu/~yuxiangw/resources.html (i.e. `gft_code` folder here https://sites.cs.ucsb.edu/~yuxiangw/codes/gtf_code.zip), then stored in the `pittsburgh.rda` file. The adjacency matrix associated with the Pittsburgh graph was obtained from the `Exp_10copies_several_wavelets.m` script accessible via the same url.
+Comparison results using the data from the "Graph Trend Filtering" paper example are reproducible by running the `pitt_f_y_formGTF.R` file. The `pittsburgh.mat` file (containing $f$ and $y$) comes from the code associated with the GTF paper and was downloaded here https://cseweb.ucsd.edu/~yuxiangw/resources.html (i.e. `gft_code` folder here https://cseweb.ucsd.edu/~yuxiangw/codes/gtf_code.zip), then stored in the `pittsburgh.rda` file. The adjacency matrix associated with the Pittsburgh graph was obtained from the `Exp_10copies_several_wavelets.m` script accessible via the same url.
 ```{r,  eval=FALSE}
 source("pitt_f_y_formGTF.R")
 ```

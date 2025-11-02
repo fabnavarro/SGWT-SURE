@@ -90,10 +90,10 @@ results presented in the paper.
 The comparisons made with graph trend filtering (GTF) involves the
 matlab and python codes available on the webpage of one of the authors
 (i.e. via this
-[url](https://sites.cs.ucsb.edu/~yuxiangw/resources.html),
-[gtf\_code.zip](https://sites.cs.ucsb.edu/~yuxiangw/codes/gtf_code.zip)
+[url](https://cseweb.ucsd.edu/~yuxiangw/resources.html),
+[gtf\_code.zip](https://cseweb.ucsd.edu/~yuxiangw/codes/gtf_code.zip)
 and
-[code-to-run-wavelets.zip](https://sites.cs.ucsb.edu/~yuxiangw/codes/code-to-run-wavelets.zip)).
+[code-to-run-wavelets.zip](https://cseweb.ucsd.edu/~yuxiangw/codes/code-to-run-wavelets.zip)).
 
 For *k* = 0, the R `genlasso` package was also used. In particular, for
 the simulations corresponding to the Pittsbug graph using the data of
@@ -206,9 +206,9 @@ Comparison results using the data from the “Graph Trend Filtering” paper
 example are reproducible by running the `pitt_f_y_formGTF.R` file. The
 `pittsburgh.mat` file (containing *f* and *y*) comes from the code
 associated with the GTF paper and was downloaded here
-<a href="https://sites.cs.ucsb.edu/~yuxiangw/resources.html" class="uri">https://sites.cs.ucsb.edu/~yuxiangw/resources.html</a>
+<a href="https://cseweb.ucsd.edu/~yuxiangw/resources.html" class="uri">https://cseweb.ucsd.edu/~yuxiangw/resources.html</a>
 (i.e. `gft_code` folder here
-<a href="https://sites.cs.ucsb.edu/~yuxiangw/codes/gtf_code.zip" class="uri">https://sites.cs.ucsb.edu/~yuxiangw/codes/gtf_code.zip</a>),
+<a href="https://cseweb.ucsd.edu/~yuxiangw/codes/gtf_code.zip" class="uri">https://cseweb.ucsd.edu/~yuxiangw/codes/gtf_code.zip</a>),
 then stored in the `pittsburgh.rda` file. The adjacency matrix
 associated with the Pittsburgh graph was obtained from the
 `Exp_10copies_several_wavelets.m` script accessible via the same url.
